@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+body {
+  background: url('Anime.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  /* margin: 0; */
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #007e7e;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #ecf003;
+  font-family: 'Sacramento', cursive;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #ff9c08;
+  font-family: 'Roboto', sans-serif;}
+
+
+hr {
+  border: dotted #ffffff 6px;
+  border-bottom: none;
+  width: 4%;
+
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+
+.middle-container {
+  margin: 50px 0;
+}
+
+
+
+/* #Most important one  */
+.program{
+	display: flex;
+	flex-direction: column-reverse;
+	margin: 0% 20%;
+}
+
+
+/* Footer */
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+
+
+.btn {
+  background: #00f7ff;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #181414;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+/* optional design */
+
+.btn:hover {
+  background: #00ffdd;
+
+  text-decoration: none;
+}
+
+
+
+
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+/* for the right images , because we reversed the column */
+.right-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.left-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+

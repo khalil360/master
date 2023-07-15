@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    background: url(Anime.jpg);
+}
+h1{
+    color: yellow;
+}
+h2{
+    color: orange;
+}
+.top-cloud{
+    position: absolute;
+    right : 50px ;
+    top:100px
+}
+hr{
+    border : dotted;
+    border-bottom: none;
+    width: 100px;
+    color: aliceblue;
+}
+.program{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0% 20% ;
+}
+.right-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+  }
+  
+  .left-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+  }
